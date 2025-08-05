@@ -24,5 +24,5 @@ urlpatterns = [
 
     # API Path confi.
     path('api/v1/',include('api.urls')),
-    path('employee/',include('employee.urls'))
+    # path('employee/',include('employee.urls'))
 ]
