@@ -19,10 +19,14 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('student.urls')),
+    path('student/',include('student.urls')),
 
 
     # API Path confi.
     path('api/v1/',include('api.urls')),
-    # path('employee/',include('employee.urls'))
+    path('employee/',include('employee.urls')),
+
+    #Generic
+    path('employee_generic/',include('Employee_Generic.urls')),
+    path('employee_viewset/',include('Employee_Viewset.urls'))
 ]

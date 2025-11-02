@@ -1,11 +1,18 @@
 from rest_framework import serializers
 from student.models import Student
+from Employee_Generic.models import Employee_generic
 
 
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
         fields = "__all__"
+
+class EmployeeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Employee_generic
+        fields = "__all__"
+
 
 
 # Notes

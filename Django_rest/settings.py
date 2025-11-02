@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'student',
     'api',
-    'employee'
+    'employee',
+    'employee_mixin',
+    'Employee_Generic',
+    'Employee_Viewset'
 ]
 
 MIDDLEWARE = [
