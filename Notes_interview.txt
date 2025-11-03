@@ -1,0 +1,2 @@
+REST_API VEDIO = https://www.wecreateproblems.com/interview-questions/django-interview-questions
+https://github.com/PragatiVerma18/DRF-Interview-Prep/blob/master/DRF_Interview_Questions__Answers.pdf

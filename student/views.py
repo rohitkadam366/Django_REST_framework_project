@@ -21,6 +21,7 @@ def student_view(request):
         serializer = StudentSerializer(students,many = True)        #many = True because students have multiple data
 
         return Response(serializer.data, status=status.HTTP_200_OK)
+    
     elif request.method == 'POST':
         serializer = StudentSerializer(data=request.data)
         if serializer.is_valid():

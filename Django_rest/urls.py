@@ -19,6 +19,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    #Web application endpoints
     path('student/',include('student.urls')),
 
 
